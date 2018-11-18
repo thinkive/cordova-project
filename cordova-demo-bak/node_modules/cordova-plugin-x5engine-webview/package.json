@@ -1,0 +1,66 @@
+{
+  "_from": "cordova-plugin-x5engine-webview",
+  "_id": "cordova-plugin-x5engine-webview@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-jQeikNWy4pIcrDcOwtBppQPqUJY=",
+  "_location": "/cordova-plugin-x5engine-webview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-x5engine-webview",
+    "name": "cordova-plugin-x5engine-webview",
+    "escapedName": "cordova-plugin-x5engine-webview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-x5engine-webview/-/cordova-plugin-x5engine-webview-2.0.0.tgz",
+  "_shasum": "8d07a290d5b2e2921cac370ec2d069a503ea5096",
+  "_spec": "cordova-plugin-x5engine-webview",
+  "_where": "/Users/wecloud/android-workspace/cordova-project/cordova-demo",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/offbye/cordova-plugin-x5engine-webview"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-x5engine-webview",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Changes the default WebView to QQ X5 WebView",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "homepage": "https://github.com/offbye/cordova-plugin-x5engine-webview",
+  "keywords": [
+    "cordova",
+    "chromium",
+    "x5engine",
+    "webview",
+    "engine",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-x5engine-webview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offbye/cordova-plugin-x5engine-webview.git"
+  },
+  "version": "2.0.0"
+}
