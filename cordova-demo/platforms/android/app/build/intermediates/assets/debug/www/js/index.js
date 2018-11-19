@@ -28,6 +28,7 @@ var app = {
     bindEvents: function() {
         //当cordova完全加载，可以调用cordova API接口          支持平台：Amazon、Fire OS、Android、BlackBerry 10、iOS、Tizen、Windows Phone 8、Windows 8
         document.addEventListener('deviceready', this.onDeviceReady, false);
+
     },
     onOnline:function() { // 在线
          alert('online')
@@ -804,6 +805,11 @@ var app = {
 
         //a监听音量加键事件。支持平台：BlackBerry 10、Android
         document.addEventListener("volumeupbutton", function(){}, false);
+
+        //重新显示启动图
+        document.getElementById('showSplashscreen').addEventListener('click', function() {
+            navigator.splashscreen.show()
+        });
 
     }
 };

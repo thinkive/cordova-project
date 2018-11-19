@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 18 20:53:03 CST 2018
+#Sun Nov 18 21:23:10 CST 2018
 4.path=www/cordova-js-src/plugin/android/app.js
 8.set=ASSET
 6.path=www/plugins/cordova-plugin-splashscreen/www/splashscreen.js

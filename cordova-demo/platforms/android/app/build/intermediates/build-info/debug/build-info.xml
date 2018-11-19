@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="22"
-    build-mode="COLD"
+    build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1542545582798"
+    timestamp="1542547390037"
     token="-987248113740758842"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -26,10 +26,40 @@
     <artifact
         location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1542545503572"
+        timestamp="1542547390037"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
@@ -64,14 +94,6 @@
         <artifact
             location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1542545582798"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
