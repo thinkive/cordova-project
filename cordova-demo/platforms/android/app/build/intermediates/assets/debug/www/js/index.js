@@ -52,10 +52,9 @@ var app = {
         app.checkDevice();// 获得设备信息
         app.receivedEvent('deviceready');
         //以下是测试
-        /*
-        // 3s后震动设备3s
+        // 3s后震动设备3s 必须是真机测试才有效
         setTimeout(function(){
-            navigator.vibrate(3000) // navigator.vibrate([3000]);
+            navigator.vibrate(3000) // navigator.vibrate([3000]);//navigator.vibrate(0)取消所有震动
         },3000)
 
         //（可视化消息提醒）不同于js的alert()、confirm()和prompt()方法是同步的。Cordova的alert()、confirm()和prompt()方法是异步的，并且对显示内容有更大的控制权限。
@@ -92,20 +91,19 @@ var app = {
             'Jane Doe'                 // defaultText
         );
         //重复播放提示音二次的次数。
-       navigator.notification.beep(2);*/
         // onSuccess Callback
         // This method accepts a Position object, which contains the
         // current GPS coordinates
         //
         var onSuccess = function(position) {
-            alert('Latitude: '          + position.coords.latitude          + '\n' +
-                  'Longitude: '         + position.coords.longitude         + '\n' +
-                  'Altitude: '          + position.coords.altitude          + '\n' +
-                  'Accuracy: '          + position.coords.accuracy          + '\n' +
-                  'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
-                  'Heading: '           + position.coords.heading           + '\n' +
-                  'Speed: '             + position.coords.speed             + '\n' +
-                  'Timestamp: '         + position.timestamp                + '\n');
+            alert('纬度: '  + position.coords.latitude          + '\n' +
+                    '经度: '         + position.coords.longitude         + '\n' +
+                    '海拔: '          + position.coords.altitude          + '\n' +
+                    '水平精度: '          + position.coords.accuracy          + '\n' +
+                    '垂直精度: ' + position.coords.altitudeAccuracy  + '\n' +
+                    '方向: '           + position.coords.heading           + '\n' +
+                    '速度: '             + position.coords.speed             + '\n' +
+                    '时间戳: '         + position.timestamp                + '\n');
         };
 
         // onError Callback receives a PositionError object
@@ -115,7 +113,7 @@ var app = {
                   'message: ' + error.message + '\n');
         }
 
-        // navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
 //        function onSuccess(imageURI) {
 //            var image = document.getElementById('myImage');
@@ -737,7 +735,7 @@ var app = {
         states[Connection.CELL_4G]  = 'Cell 4G connection';
         states[Connection.CELL]     = 'Cell generic connection';
         states[Connection.NONE]     = 'No network connection';
-       // alert('网络类型: ' + states[networkState]);
+        alert('网络类型: ' + states[networkState]);
     },
     checkDevice: function (){
 //    device.cordova 返回cordova的版本
@@ -749,7 +747,7 @@ var app = {
 //    device.isVirtual
 //    device.serial
 //    device.cordova
-      var model = device.model;
+      alert(JSON.stringify(device))
       //alert('机型：'+model)
     },
     eventBackButton: function(){

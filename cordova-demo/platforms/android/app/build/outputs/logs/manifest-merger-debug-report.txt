@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
 MERGED from [:CordovaLib] /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
 	package
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
 		INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml
@@ -86,3 +86,23 @@ MERGED from [:CordovaLib] /Users/wecloud/android-workspace/cordova-project/cordo
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
 	android:minSdkVersion
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:19-63
