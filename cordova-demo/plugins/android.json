@@ -27,9 +27,6 @@
     },
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "com.example.cordovaDemo"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "com.example.cordovaDemo"
     }
   },
   "dependent_plugins": {}

@@ -91,7 +91,7 @@ var app = {
             'Jane Doe'                 // defaultText
         );
         //重复播放提示音二次的次数。
-        // onSuccess Callback
+        // onSuccess Callback cordova plugin add cordova-plugin-geolocation
         // 下面原生定位支持ios，android由于墙的问题，
 
 //       ios 定位处理
@@ -116,6 +116,7 @@ var app = {
 //        navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
 //      android定位处理（百度定位）cordova plugin add https://github.com/mrwutong/cordova-qdc-baidu-location --variable API_KEY="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+//      移除cordova plugin rm com.qdc.plugins.baidu.location
 
         baidu_location.getCurrentPosition(function(info) {
             alert(info)
