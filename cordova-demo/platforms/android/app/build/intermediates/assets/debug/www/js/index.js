@@ -92,8 +92,7 @@ var app = {
         );
         //重复播放提示音二次的次数。
         // onSuccess Callback
-        // This method accepts a Position object, which contains the
-        // current GPS coordinates
+        // 下面原生定位支持ios，android由于墙的问题，使用此插件无效
         //
         var onSuccess = function(position) {
             alert('纬度: '  + position.coords.latitude          + '\n' +

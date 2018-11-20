@@ -92,27 +92,38 @@ var app = {
         );
         //重复播放提示音二次的次数。
         // onSuccess Callback
-        // 下面原生定位支持ios，android由于墙的问题，使用此插件无效
-        //
-        var onSuccess = function(position) {
-            alert('纬度: '  + position.coords.latitude          + '\n' +
-                    '经度: '         + position.coords.longitude         + '\n' +
-                    '海拔: '          + position.coords.altitude          + '\n' +
-                    '水平精度: '          + position.coords.accuracy          + '\n' +
-                    '垂直精度: ' + position.coords.altitudeAccuracy  + '\n' +
-                    '方向: '           + position.coords.heading           + '\n' +
-                    '速度: '             + position.coords.speed             + '\n' +
-                    '时间戳: '         + position.timestamp                + '\n');
-        };
+        // 下面原生定位支持ios，android由于墙的问题，
 
-        // onError Callback receives a PositionError object
-        //
-        function onError(error) {
-            alert('code: '    + error.code    + '\n' +
-                  'message: ' + error.message + '\n');
-        }
+//       ios 定位处理
+//        var onSuccess = function(position) {
+//            alert('纬度: '  + position.coords.latitude          + '\n' +
+//                    '经度: '         + position.coords.longitude         + '\n' +
+//                    '海拔: '          + position.coords.altitude          + '\n' +
+//                    '水平精度: '          + position.coords.accuracy          + '\n' +
+//                    '垂直精度: ' + position.coords.altitudeAccuracy  + '\n' +
+//                    '方向: '           + position.coords.heading           + '\n' +
+//                    '速度: '             + position.coords.speed             + '\n' +
+//                    '时间戳: '         + position.timestamp                + '\n');
+//        };
+//
+//        // onError Callback receives a PositionError object
+//        //
+//        function onError(error) {
+//            alert('code: '    + error.code    + '\n' +
+//                  'message: ' + error.message + '\n');
+//        }
+//
+//        navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
-        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+//      android定位处理（百度定位）cordova plugin add https://github.com/mrwutong/cordova-qdc-baidu-location --variable API_KEY="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+
+        baidu_location.getCurrentPosition(function(info) {
+            alert(info)
+        }, function(error) {
+            alert(error)
+        });
+
+
 
 //        function onSuccess(imageURI) {
 //            var image = document.getElementById('myImage');
