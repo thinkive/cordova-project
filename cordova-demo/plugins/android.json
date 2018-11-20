@@ -27,6 +27,10 @@
     },
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "com.qdc.plugins.baidu.location": {
+      "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5",
+      "PACKAGE_NAME": "com.example.cordovaDemo"
     }
   },
   "dependent_plugins": {}

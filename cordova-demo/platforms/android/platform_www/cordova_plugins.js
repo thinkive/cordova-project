@@ -58,18 +58,12 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-geolocation.geolocation",
-    "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
-    "pluginId": "cordova-plugin-geolocation",
+    "id": "com.qdc.plugins.baidu.location.baidu_location",
+    "file": "plugins/com.qdc.plugins.baidu.location/www/baidu_location.js",
+    "pluginId": "com.qdc.plugins.baidu.location",
     "clobbers": [
-      "navigator.geolocation"
+      "baidu_location"
     ]
-  },
-  {
-    "id": "cordova-plugin-geolocation.PositionError",
-    "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
-    "pluginId": "cordova-plugin-geolocation",
-    "runs": true
   }
 ];
 module.exports.metadata = 
@@ -82,7 +76,7 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-vibration": "3.1.0",
   "cordova-plugin-dialogs": "2.0.1",
-  "cordova-plugin-geolocation": "4.0.1"
+  "com.qdc.plugins.baidu.location": "2.0.0"
 };
 // BOTTOM OF METADATA
 });

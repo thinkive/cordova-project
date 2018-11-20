@@ -17,6 +17,7 @@
         "cordova-plugin-splashscreen": "^5.0.2",
         "cordova-plugin-vibration": "^3.1.0",
         "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-qdc-baidu-location": "git+https://github.com/liangzhenghui/cordova-qdc-baidu-location.git#2.0.0",
         "demoplugin": "file:../../cordova-plguins/DemoPlugin"
     },
     "cordova": {
@@ -27,7 +28,10 @@
             "cordova-plugin-network-information": {},
             "cordova-plugin-device": {},
             "cordova-plugin-vibration": {},
-            "cordova-plugin-dialogs": {}
+            "cordova-plugin-dialogs": {},
+            "com.qdc.plugins.baidu.location": {
+                "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+            }
         },
         "platforms": [
             "android"

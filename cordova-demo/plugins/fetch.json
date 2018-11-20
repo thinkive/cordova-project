@@ -54,5 +54,15 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "com.qdc.plugins.baidu.location": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+    }
   }
 }

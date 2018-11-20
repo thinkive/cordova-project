@@ -30,4 +30,7 @@
     <plugin name="cordova-plugin-vibration" spec="^3.1.0" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
     <engine name="android" spec="^7.1.2" />
+    <plugin name="com.qdc.plugins.baidu.location" spec="https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0">
+        <variable name="API_KEY" value="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5" />
+    </plugin>
 </widget>

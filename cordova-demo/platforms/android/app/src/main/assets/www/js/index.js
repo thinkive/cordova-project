@@ -115,11 +115,11 @@ var app = {
 //
 //        navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
-//      android定位处理（百度定位）cordova plugin add https://github.com/mrwutong/cordova-qdc-baidu-location --variable API_KEY="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+//      android定位处理（百度定位）cordova plugin add https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0 --variable API_KEY="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
 //      移除cordova plugin rm com.qdc.plugins.baidu.location
 
         baidu_location.getCurrentPosition(function(info) {
-            alert(info)
+            alert(JSON.stringify(data));
         }, function(error) {
             alert(error)
         });

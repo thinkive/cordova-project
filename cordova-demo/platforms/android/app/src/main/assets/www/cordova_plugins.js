@@ -56,6 +56,14 @@ module.exports = [
     "merges": [
       "navigator.notification"
     ]
+  },
+  {
+    "id": "com.qdc.plugins.baidu.location.baidu_location",
+    "file": "plugins/com.qdc.plugins.baidu.location/www/baidu_location.js",
+    "pluginId": "com.qdc.plugins.baidu.location",
+    "clobbers": [
+      "baidu_location"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -67,7 +75,8 @@ module.exports.metadata =
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-vibration": "3.1.0",
-  "cordova-plugin-dialogs": "2.0.1"
+  "cordova-plugin-dialogs": "2.0.1",
+  "com.qdc.plugins.baidu.location": "2.0.0"
 };
 // BOTTOM OF METADATA
 });
