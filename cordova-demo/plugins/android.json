@@ -31,6 +31,11 @@
     "com.qdc.plugins.baidu.location": {
       "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5",
       "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "cordova-plugin-facebook": {
+      "FACEBOOK_APP_ID": "2399869080027605",
+      "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
+      "PACKAGE_NAME": "com.example.cordovaDemo"
     }
   },
   "dependent_plugins": {}

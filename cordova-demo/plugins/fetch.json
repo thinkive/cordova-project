@@ -64,5 +64,16 @@
     "variables": {
       "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
     }
+  },
+  "cordova-plugin-facebook": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook"
+    },
+    "is_top_level": true,
+    "variables": {
+      "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
+      "FACEBOOK_APP_ID": "2399869080027605"
+    }
   }
 }

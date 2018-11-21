@@ -1,0 +1,4 @@
+#Tue Nov 20 23:10:35 CST 2018
+base.0=/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex

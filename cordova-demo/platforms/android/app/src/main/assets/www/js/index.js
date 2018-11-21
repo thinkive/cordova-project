@@ -125,6 +125,7 @@ var app = {
 
 
 
+
 //        function onSuccess(imageURI) {
 //            var image = document.getElementById('myImage');
 //            image.src = imageURI;
@@ -780,6 +781,25 @@ var app = {
      exitApp: function() {
         navigator.app.exitApp();
      },
+     facebookLogin: function() {
+         alert('facebook登录')
+         CordovaFacebook.login({
+            permissions: ['email', 'user_likes'],
+            onSuccess: function(result) {
+               if(result.declined.length > 0) {
+                  alert("The User declined something!");
+               }
+               /* ... */
+            },
+            onFailure: function(result) {
+               if(result.cancelled) {
+                  alert("The user doesn't like my app");
+               } else if(result.error) {
+                  alert("There was an error:" + result.errorLocalized);
+               }
+            }
+         });
+     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         // 网络离线
@@ -817,6 +837,11 @@ var app = {
         //重新显示启动图
         document.getElementById('showSplashscreen').addEventListener('click', function() {
             navigator.splashscreen.show()
+        });
+
+        // facebook登录facebookLogin
+        document.getElementById('facebookLogin').addEventListener('click', function() {
+            app.facebookLogin()
         });
 
     }

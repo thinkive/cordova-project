@@ -260,6 +260,7 @@ dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    compile "com.facebook.android:facebook-android-sdk:4.3.+"
     // SUB-PROJECT DEPENDENCIES END
     implementation files('libs/BaiduLBS_Android.jar')
 }

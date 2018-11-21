@@ -40,4 +40,13 @@
     <feature name="BaiduLocation">
         <param name="android-package" value="com.qdc.plugins.baidu.BaiduLocation" />
     </feature>
+    <feature name="CordovaFacebook">
+        <param name="android-package" value="com.blakeisrael.cordova.CordovaFacebook" />
+        <param name="onload" value="true" />
+    </feature>
+    <access origin="https://m.facebook.com" />
+    <access origin="https://graph.facebook.com" />
+    <access origin="https://api.facebook.com" />
+    <access origin="https://*.fbcdn.net" />
+    <access origin="https://*.akamaihd.net" />
 </widget>

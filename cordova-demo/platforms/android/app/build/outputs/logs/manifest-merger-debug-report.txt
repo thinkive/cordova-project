@@ -1,13 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.3.0] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/AndroidManifest.xml:21:1-30:12
 MERGED from [:CordovaLib] /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:support-v4:22.2.1] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/53bf289c6048d4bd8dd184cc7d3402c8/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
 		INJECTED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml
@@ -43,7 +45,11 @@ ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platfor
 	android:name
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:5:5-14:19
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:5:5-17:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.3.0] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.3.0] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/53bf289c6048d4bd8dd184cc7d3402c8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/53bf289c6048d4bd8dd184cc7d3402c8/AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -92,47 +98,75 @@ ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platfor
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:13:60-108
 	android:name
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:13:20-59
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:14:9-108
+	android:value
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:14:66-105
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:14:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:9-243
+	android:label
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:103-135
+	android:configChanges
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:19-102
+	android:theme
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:181-240
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:136-180
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:9-176
+	android:authorities
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:19-97
+	android:exported
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:98-121
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:122-173
 uses-sdk
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:5-74
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:5-74
+MERGED from [com.facebook.android:facebook-android-sdk:4.3.0] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.3.0] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/AndroidManifest.xml:24:5-26:41
 MERGED from [:CordovaLib] /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-v4:22.2.1] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/53bf289c6048d4bd8dd184cc7d3402c8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/wecloud/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/53bf289c6048d4bd8dd184cc7d3402c8/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:42-71
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:42-71
 	android:minSdkVersion
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:15:15-41
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:15-41
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:5-79
-	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:16:22-76
-uses-permission#android.permission.VIBRATE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:17:5-66
-	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:17:22-63
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:5-81
-	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:18:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:19:5-79
 	android:name
 		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:20:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:20:5-76
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:20:22-73
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:23:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:21:5-76
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:24:5-76
 	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:21:22-73
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:24:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:22:5-75
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:25:5-75
 	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:22:22-72
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:25:22-72
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:23:5-81
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:26:5-81
 	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:23:22-78
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:24:5-84
+ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:27:5-84
 	android:name
-		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:24:22-81
+		ADDED from /Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/AndroidManifest.xml:27:22-81

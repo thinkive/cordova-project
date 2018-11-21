@@ -94,6 +94,60 @@
               "xml": "<meta-data android:name=\"com.baidu.lbsapi.API_KEY\" android:value=\"hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5\" />",
               "count": 1
             }
+          ],
+          "application": [
+            {
+              "xml": "<meta-data android:name=\"com.facebook.sdk.ApplicationId\" android:value=\"@string/facebook_app_id\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|screenLayout|screenSize|orientation\" android:label=\"@string/app_name\" android:name=\"com.facebook.FacebookActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<provider android:authorities=\"com.facebook.app.FacebookContentProvider2399869080027605\" android:exported=\"true\" android:name=\"com.facebook.FacebookContentProvider\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"CordovaFacebook\"><param name=\"android-package\" value=\"com.blakeisrael.cordova.CordovaFacebook\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://m.facebook.com\" />",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://graph.facebook.com\" />",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://api.facebook.com\" />",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://*.fbcdn.net\" />",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://*.akamaihd.net\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/values/strings.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<string name=\"facebook_app_id\">2399869080027605</string>",
+              "count": 1
+            }
           ]
         }
       }
@@ -123,6 +177,11 @@
     },
     "com.qdc.plugins.baidu.location": {
       "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5",
+      "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "cordova-plugin-facebook": {
+      "FACEBOOK_APP_ID": "2399869080027605",
+      "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
       "PACKAGE_NAME": "com.example.cordovaDemo"
     }
   },
@@ -192,6 +251,14 @@
       "clobbers": [
         "baidu_location"
       ]
+    },
+    {
+      "id": "cordova-plugin-facebook.CordovaFacebook",
+      "file": "plugins/cordova-plugin-facebook/www/CordovaFacebook.js",
+      "pluginId": "cordova-plugin-facebook",
+      "clobbers": [
+        "CordovaFacebook"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -202,6 +269,7 @@
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-vibration": "3.1.0",
     "cordova-plugin-dialogs": "2.0.1",
-    "com.qdc.plugins.baidu.location": "2.0.0"
+    "com.qdc.plugins.baidu.location": "2.0.0",
+    "cordova-plugin-facebook": "0.2.2"
   }
 }

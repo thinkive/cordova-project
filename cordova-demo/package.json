@@ -13,6 +13,7 @@
         "cordova-android": "^7.1.2",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-dialogs": "^2.0.1",
+        "cordova-plugin-facebook": "^0.2.2",
         "cordova-plugin-network-information": "^2.0.1",
         "cordova-plugin-splashscreen": "^5.0.2",
         "cordova-plugin-vibration": "^3.1.0",
@@ -31,6 +32,10 @@
             "cordova-plugin-dialogs": {},
             "com.qdc.plugins.baidu.location": {
                 "API_KEY": "hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
+            },
+            "cordova-plugin-facebook": {
+                "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
+                "FACEBOOK_APP_ID": "2399869080027605"
             }
         },
         "platforms": [

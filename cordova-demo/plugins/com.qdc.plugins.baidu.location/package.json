@@ -1,0 +1,33 @@
+{
+  "_from": "git+https://github.com/liangzhenghui/cordova-qdc-baidu-location.git#2.0.0",
+  "_id": "cordova-qdc-baidu-location@2.0.0",
+  "_inBundle": false,
+  "_location": "/cordova-qdc-baidu-location",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0",
+    "rawSpec": "https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0",
+    "saveSpec": "git+https://github.com/liangzhenghui/cordova-qdc-baidu-location.git#2.0.0",
+    "fetchSpec": "https://github.com/liangzhenghui/cordova-qdc-baidu-location.git",
+    "gitCommittish": "2.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/liangzhenghui/cordova-qdc-baidu-location.git#0a04af04aa9a493a7f7c54cfa20ac5f281581759",
+  "_spec": "https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0",
+  "_where": "/Users/wecloud/android-workspace/cordova-project/cordova-demo",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "本插件利用百度地图提供的定位功能进行Android版手机定位。支持gradle3.0+",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-qdc-baidu-location",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}

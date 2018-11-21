@@ -64,6 +64,14 @@ module.exports = [
     "clobbers": [
       "baidu_location"
     ]
+  },
+  {
+    "id": "cordova-plugin-facebook.CordovaFacebook",
+    "file": "plugins/cordova-plugin-facebook/www/CordovaFacebook.js",
+    "pluginId": "cordova-plugin-facebook",
+    "clobbers": [
+      "CordovaFacebook"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -76,7 +84,8 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-vibration": "3.1.0",
   "cordova-plugin-dialogs": "2.0.1",
-  "com.qdc.plugins.baidu.location": "2.0.0"
+  "com.qdc.plugins.baidu.location": "2.0.0",
+  "cordova-plugin-facebook": "0.2.2"
 };
 // BOTTOM OF METADATA
 });

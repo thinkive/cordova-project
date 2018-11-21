@@ -118,12 +118,11 @@ var app = {
 //      android定位处理（百度定位）cordova plugin add https://github.com/liangzhenghui/cordova-qdc-baidu-location#2.0.0 --variable API_KEY="hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5"
 //      移除cordova plugin rm com.qdc.plugins.baidu.location
         baidu_location.getCurrentPosition(function(data) {
-            alert(1)
-            alert(JSON.stringify(data));
+            alert('百度定位：' + JSON.stringify(data));
         }, function(error) {
-            alert(2)
             alert(JSON.stringify(data));
         });
+
 
 
 
@@ -782,6 +781,25 @@ var app = {
      exitApp: function() {
         navigator.app.exitApp();
      },
+     facebookLogin: function() {
+         alert('facebook登录')
+         CordovaFacebook.login({
+            permissions: ['email', 'user_likes'],
+            onSuccess: function(result) {
+               if(result.declined.length > 0) {
+                  alert("The User declined something!");
+               }
+               /* ... */
+            },
+            onFailure: function(result) {
+               if(result.cancelled) {
+                  alert("The user doesn't like my app");
+               } else if(result.error) {
+                  alert("There was an error:" + result.errorLocalized);
+               }
+            }
+         });
+     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         // 网络离线
@@ -819,6 +837,12 @@ var app = {
         //重新显示启动图
         document.getElementById('showSplashscreen').addEventListener('click', function() {
             navigator.splashscreen.show()
+        });
+
+        // facebook登录facebookLogin
+        document.getElementById('facebookLogin').addEventListener('click', function() {
+            alert(1)
+            app.facebookLogin()
         });
 
     }
