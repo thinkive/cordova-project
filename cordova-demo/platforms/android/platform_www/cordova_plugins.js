@@ -72,6 +72,14 @@ module.exports = [
     "clobbers": [
       "CordovaFacebook"
     ]
+  },
+  {
+    "id": "cordova-plugin-facebookads.FacebookAds",
+    "file": "plugins/cordova-plugin-facebookads/www/FacebookAds.js",
+    "pluginId": "cordova-plugin-facebookads",
+    "clobbers": [
+      "window.FacebookAds"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -85,7 +93,10 @@ module.exports.metadata =
   "cordova-plugin-vibration": "3.1.0",
   "cordova-plugin-dialogs": "2.0.1",
   "com.qdc.plugins.baidu.location": "2.0.0",
-  "cordova-plugin-facebook": "0.2.2"
+  "cordova-plugin-facebook": "0.2.2",
+  "cordova-plugin-extension": "1.5.4",
+  "cordova-facebook-audnet-sdk": "4.26.2",
+  "cordova-plugin-facebookads": "4.23.2"
 };
 // BOTTOM OF METADATA
 });

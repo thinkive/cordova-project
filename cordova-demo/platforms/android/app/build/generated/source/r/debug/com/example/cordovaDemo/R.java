@@ -10,6 +10,21 @@ package com.example.cordovaDemo;
 public final class R {
   public static final class attr {
     /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int adSize=0x7f010000;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int adSizes=0x7f010001;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int adUnitId=0x7f010002;
+    /**
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -21,18 +36,18 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_auxiliary_view_position=0x7f010000;
+    public static final int com_facebook_auxiliary_view_position=0x7f010003;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int com_facebook_confirm_logout=0x7f010001;
+    public static final int com_facebook_confirm_logout=0x7f010004;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int com_facebook_foreground_color=0x7f010002;
+    public static final int com_facebook_foreground_color=0x7f010005;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -45,27 +60,27 @@ public final class R {
      * <tr><td>right</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_horizontal_alignment=0x7f010003;
+    public static final int com_facebook_horizontal_alignment=0x7f010006;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int com_facebook_is_cropped=0x7f010004;
+    public static final int com_facebook_is_cropped=0x7f010007;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int com_facebook_login_text=0x7f010005;
+    public static final int com_facebook_login_text=0x7f010008;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int com_facebook_logout_text=0x7f010006;
+    public static final int com_facebook_logout_text=0x7f010009;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int com_facebook_object_id=0x7f010007;
+    public static final int com_facebook_object_id=0x7f01000a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -78,7 +93,7 @@ public final class R {
      * <tr><td>unknown</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_object_type=0x7f010008;
+    public static final int com_facebook_object_type=0x7f01000b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -91,7 +106,7 @@ public final class R {
      * <tr><td>small</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_preset_size=0x7f010009;
+    public static final int com_facebook_preset_size=0x7f01000c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -104,7 +119,7 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_style=0x7f01000a;
+    public static final int com_facebook_style=0x7f01000d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -117,7 +132,26 @@ public final class R {
      * <tr><td>never_display</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int com_facebook_tooltip_mode=0x7f01000b;
+    public static final int com_facebook_tooltip_mode=0x7f01000e;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layoutManager=0x7f01000f;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int reverseLayout=0x7f010010;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int spanCount=0x7f010011;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f010012;
   }
   public static final class color {
     public static final int com_facebook_blue=0x7f020000;
@@ -154,6 +188,9 @@ public final class R {
     public static final int com_facebook_share_button_padding_top=0x7f030010;
     public static final int com_facebook_share_button_text_size=0x7f030011;
     public static final int com_facebook_tooltip_horizontal_padding=0x7f030012;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f030013;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f030014;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f030015;
   }
   public static final class drawable {
     public static final int com_facebook_button_background=0x7f040000;
@@ -200,80 +237,240 @@ public final class R {
     public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f05000b;
     public static final int display_always=0x7f05000c;
     public static final int inline=0x7f05000d;
-    public static final int large=0x7f05000e;
-    public static final int left=0x7f05000f;
-    public static final int messenger_send_button=0x7f050010;
-    public static final int never_display=0x7f050011;
-    public static final int normal=0x7f050012;
-    public static final int open_graph=0x7f050013;
-    public static final int page=0x7f050014;
-    public static final int right=0x7f050015;
-    public static final int small=0x7f050016;
-    public static final int standard=0x7f050017;
-    public static final int top=0x7f050018;
-    public static final int unknown=0x7f050019;
+    public static final int item_touch_helper_previous_elevation=0x7f05000e;
+    public static final int large=0x7f05000f;
+    public static final int left=0x7f050010;
+    public static final int messenger_send_button=0x7f050011;
+    public static final int never_display=0x7f050012;
+    public static final int normal=0x7f050013;
+    public static final int open_graph=0x7f050014;
+    public static final int page=0x7f050015;
+    public static final int right=0x7f050016;
+    public static final int small=0x7f050017;
+    public static final int standard=0x7f050018;
+    public static final int top=0x7f050019;
+    public static final int unknown=0x7f05001a;
+  }
+  public static final class integer {
+    public static final int google_play_services_version=0x7f060000;
   }
   public static final class layout {
-    public static final int com_facebook_activity_layout=0x7f060000;
-    public static final int com_facebook_login_fragment=0x7f060001;
-    public static final int com_facebook_tooltip_bubble=0x7f060002;
-    public static final int messenger_button_send_blue_large=0x7f060003;
-    public static final int messenger_button_send_blue_round=0x7f060004;
-    public static final int messenger_button_send_blue_small=0x7f060005;
-    public static final int messenger_button_send_white_large=0x7f060006;
-    public static final int messenger_button_send_white_round=0x7f060007;
-    public static final int messenger_button_send_white_small=0x7f060008;
+    public static final int com_facebook_activity_layout=0x7f070000;
+    public static final int com_facebook_login_fragment=0x7f070001;
+    public static final int com_facebook_tooltip_bubble=0x7f070002;
+    public static final int messenger_button_send_blue_large=0x7f070003;
+    public static final int messenger_button_send_blue_round=0x7f070004;
+    public static final int messenger_button_send_blue_small=0x7f070005;
+    public static final int messenger_button_send_white_large=0x7f070006;
+    public static final int messenger_button_send_white_round=0x7f070007;
+    public static final int messenger_button_send_white_small=0x7f070008;
   }
   public static final class mipmap {
-    public static final int icon=0x7f070000;
+    public static final int icon=0x7f080000;
   }
   public static final class string {
-    public static final int activity_name=0x7f080000;
-    public static final int app_name=0x7f080001;
-    public static final int com_facebook_image_download_unknown_error=0x7f080002;
-    public static final int com_facebook_internet_permission_error_message=0x7f080003;
-    public static final int com_facebook_internet_permission_error_title=0x7f080004;
-    public static final int com_facebook_like_button_liked=0x7f080005;
-    public static final int com_facebook_like_button_not_liked=0x7f080006;
-    public static final int com_facebook_loading=0x7f080007;
-    public static final int com_facebook_loginview_cancel_action=0x7f080008;
-    public static final int com_facebook_loginview_log_in_button=0x7f080009;
-    public static final int com_facebook_loginview_log_in_button_long=0x7f08000a;
-    public static final int com_facebook_loginview_log_out_action=0x7f08000b;
-    public static final int com_facebook_loginview_log_out_button=0x7f08000c;
-    public static final int com_facebook_loginview_logged_in_as=0x7f08000d;
-    public static final int com_facebook_loginview_logged_in_using_facebook=0x7f08000e;
-    public static final int com_facebook_send_button_text=0x7f08000f;
-    public static final int com_facebook_share_button_text=0x7f080010;
-    public static final int com_facebook_tooltip_default=0x7f080011;
-    public static final int facebook_app_id=0x7f080012;
-    public static final int launcher_name=0x7f080013;
-    public static final int messenger_send_button_text=0x7f080014;
+    public static final int activity_name=0x7f090000;
+    public static final int app_name=0x7f090001;
+    public static final int com_facebook_image_download_unknown_error=0x7f090002;
+    public static final int com_facebook_internet_permission_error_message=0x7f090003;
+    public static final int com_facebook_internet_permission_error_title=0x7f090004;
+    public static final int com_facebook_like_button_liked=0x7f090005;
+    public static final int com_facebook_like_button_not_liked=0x7f090006;
+    public static final int com_facebook_loading=0x7f090007;
+    public static final int com_facebook_loginview_cancel_action=0x7f090008;
+    public static final int com_facebook_loginview_log_in_button=0x7f090009;
+    public static final int com_facebook_loginview_log_in_button_long=0x7f09000a;
+    public static final int com_facebook_loginview_log_out_action=0x7f09000b;
+    public static final int com_facebook_loginview_log_out_button=0x7f09000c;
+    public static final int com_facebook_loginview_logged_in_as=0x7f09000d;
+    public static final int com_facebook_loginview_logged_in_using_facebook=0x7f09000e;
+    public static final int com_facebook_send_button_text=0x7f09000f;
+    public static final int com_facebook_share_button_text=0x7f090010;
+    public static final int com_facebook_tooltip_default=0x7f090011;
+    public static final int common_google_play_services_unknown_issue=0x7f090012;
+    public static final int facebook_app_id=0x7f090013;
+    public static final int launcher_name=0x7f090014;
+    public static final int messenger_send_button_text=0x7f090015;
+    public static final int s1=0x7f090016;
+    public static final int s2=0x7f090017;
+    public static final int s3=0x7f090018;
+    public static final int s4=0x7f090019;
+    public static final int s5=0x7f09001a;
+    public static final int s6=0x7f09001b;
+    public static final int s7=0x7f09001c;
   }
   public static final class style {
-    public static final int MessengerButton=0x7f090000;
-    public static final int MessengerButton_Blue=0x7f090001;
-    public static final int MessengerButton_Blue_Large=0x7f090002;
-    public static final int MessengerButton_Blue_Small=0x7f090003;
-    public static final int MessengerButton_White=0x7f090004;
-    public static final int MessengerButton_White_Large=0x7f090005;
-    public static final int MessengerButton_White_Small=0x7f090006;
-    public static final int MessengerButtonText=0x7f090007;
-    public static final int MessengerButtonText_Blue=0x7f090008;
-    public static final int MessengerButtonText_Blue_Large=0x7f090009;
-    public static final int MessengerButtonText_Blue_Small=0x7f09000a;
-    public static final int MessengerButtonText_White=0x7f09000b;
-    public static final int MessengerButtonText_White_Large=0x7f09000c;
-    public static final int MessengerButtonText_White_Small=0x7f09000d;
-    public static final int com_facebook_button=0x7f09000e;
-    public static final int com_facebook_button_like=0x7f09000f;
-    public static final int com_facebook_button_send=0x7f090010;
-    public static final int com_facebook_button_share=0x7f090011;
-    public static final int com_facebook_loginview_default_style=0x7f090012;
-    public static final int com_facebook_loginview_silver_style=0x7f090013;
-    public static final int tooltip_bubble_text=0x7f090014;
+    public static final int MessengerButton=0x7f0a0000;
+    public static final int MessengerButton_Blue=0x7f0a0001;
+    public static final int MessengerButton_Blue_Large=0x7f0a0002;
+    public static final int MessengerButton_Blue_Small=0x7f0a0003;
+    public static final int MessengerButton_White=0x7f0a0004;
+    public static final int MessengerButton_White_Large=0x7f0a0005;
+    public static final int MessengerButton_White_Small=0x7f0a0006;
+    public static final int MessengerButtonText=0x7f0a0007;
+    public static final int MessengerButtonText_Blue=0x7f0a0008;
+    public static final int MessengerButtonText_Blue_Large=0x7f0a0009;
+    public static final int MessengerButtonText_Blue_Small=0x7f0a000a;
+    public static final int MessengerButtonText_White=0x7f0a000b;
+    public static final int MessengerButtonText_White_Large=0x7f0a000c;
+    public static final int MessengerButtonText_White_Small=0x7f0a000d;
+    public static final int Theme_IAPTheme=0x7f0a000e;
+    public static final int com_facebook_button=0x7f0a000f;
+    public static final int com_facebook_button_like=0x7f0a0010;
+    public static final int com_facebook_button_send=0x7f0a0011;
+    public static final int com_facebook_button_share=0x7f0a0012;
+    public static final int com_facebook_loginview_default_style=0x7f0a0013;
+    public static final int com_facebook_loginview_silver_style=0x7f0a0014;
+    public static final int tooltip_bubble_text=0x7f0a0015;
   }
   public static final class styleable {
+    /**
+     * Attributes that can be used with a AdsAttrs.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSize com.example.cordovaDemo:adSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSizes com.example.cordovaDemo:adSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adUnitId com.example.cordovaDemo:adUnitId}</code></td><td></td></tr>
+     * </table>
+     * @see #AdsAttrs_adSize
+     * @see #AdsAttrs_adSizes
+     * @see #AdsAttrs_adUnitId
+     */
+    public static final int[] AdsAttrs={
+      0x7f010000, 0x7f010001, 0x7f010002
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#adSize}
+     * attribute's value can be found in the {@link #AdsAttrs} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.cordovaDemo:adSize
+     */
+    public static final int AdsAttrs_adSize=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#adSizes}
+     * attribute's value can be found in the {@link #AdsAttrs} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.cordovaDemo:adSizes
+     */
+    public static final int AdsAttrs_adSizes=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#adUnitId}
+     * attribute's value can be found in the {@link #AdsAttrs} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.cordovaDemo:adUnitId
+     */
+    public static final int AdsAttrs_adUnitId=2;
+    /**
+     * Attributes that can be used with a RecyclerView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.cordovaDemo:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.cordovaDemo:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.example.cordovaDemo:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.cordovaDemo:stackFromEnd}</code></td><td></td></tr>
+     * </table>
+     * @see #RecyclerView_android_orientation
+     * @see #RecyclerView_android_descendantFocusability
+     * @see #RecyclerView_layoutManager
+     * @see #RecyclerView_reverseLayout
+     * @see #RecyclerView_spanCount
+     * @see #RecyclerView_stackFromEnd
+     */
+    public static final int[] RecyclerView={
+      0x010100c4, 0x010100f1, 0x7f01000f, 0x7f010010, 
+      0x7f010011, 0x7f010012
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>afterDescendants</td><td>1</td><td></td></tr>
+     * <tr><td>beforeDescendants</td><td>0</td><td></td></tr>
+     * <tr><td>blocksDescendants</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:descendantFocusability
+     */
+    public static final int RecyclerView_android_descendantFocusability=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#layoutManager}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.cordovaDemo:layoutManager
+     */
+    public static final int RecyclerView_layoutManager=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#reverseLayout}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.cordovaDemo:reverseLayout
+     */
+    public static final int RecyclerView_reverseLayout=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#spanCount}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.example.cordovaDemo:spanCount
+     */
+    public static final int RecyclerView_spanCount=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#stackFromEnd}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.cordovaDemo:stackFromEnd
+     */
+    public static final int RecyclerView_stackFromEnd=5;
     /**
      * Attributes that can be used with a com_facebook_like_view.
      * <p>Includes the following attributes:</p>
@@ -296,8 +493,8 @@ public final class R {
      * @see #com_facebook_like_view_com_facebook_style
      */
     public static final int[] com_facebook_like_view={
-      0x7f010000, 0x7f010002, 0x7f010003, 0x7f010007, 
-      0x7f010008, 0x7f01000a
+      0x7f010003, 0x7f010005, 0x7f010006, 0x7f01000a, 
+      0x7f01000b, 0x7f01000d
     };
     /**
      * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#com_facebook_auxiliary_view_position}
@@ -410,7 +607,7 @@ public final class R {
      * @see #com_facebook_login_view_com_facebook_tooltip_mode
      */
     public static final int[] com_facebook_login_view={
-      0x7f010001, 0x7f010005, 0x7f010006, 0x7f01000b
+      0x7f010004, 0x7f010008, 0x7f010009, 0x7f01000e
     };
     /**
      * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#com_facebook_confirm_logout}
@@ -474,7 +671,7 @@ public final class R {
      * @see #com_facebook_profile_picture_view_com_facebook_preset_size
      */
     public static final int[] com_facebook_profile_picture_view={
-      0x7f010004, 0x7f010009
+      0x7f010007, 0x7f01000c
     };
     /**
      * <p>This symbol is the offset where the {@link com.example.cordovaDemo.R.attr#com_facebook_is_cropped}
@@ -506,6 +703,6 @@ public final class R {
     public static final int com_facebook_profile_picture_view_com_facebook_preset_size=1;
   }
   public static final class xml {
-    public static final int config=0x7f0b0000;
+    public static final int config=0x7f0c0000;
   }
 }

@@ -11,9 +11,12 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.1.2",
+        "cordova-facebook-audnet-sdk": "^4.26.2",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-dialogs": "^2.0.1",
+        "cordova-plugin-extension": "^1.5.4",
         "cordova-plugin-facebook": "^0.2.2",
+        "cordova-plugin-facebookads": "^4.23.2",
         "cordova-plugin-network-information": "^2.0.1",
         "cordova-plugin-splashscreen": "^5.0.2",
         "cordova-plugin-vibration": "^3.1.0",
@@ -36,7 +39,8 @@
             "cordova-plugin-facebook": {
                 "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
                 "FACEBOOK_APP_ID": "265112557538246"
-            }
+            },
+            "cordova-plugin-facebookads": {}
         },
         "platforms": [
             "android"

@@ -1,4 +1,0 @@
-#Wed Nov 21 20:36:41 CST 2018
-base.0=/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/transforms/dexMerger/debug/20
-path.0=classes.dex
-renamed.0=classes.dex

@@ -4,6 +4,23 @@
             "outputFile": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
+                    "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.1.1.aar/45f54ee6a04692d21aec8b6ecfafabc8/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,272,392,460,526,605,716",
+                        "endColumns": "74,119,67,65,78,110,72",
+                        "endOffsets": "271,391,459,525,604,715,788"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1784,1863,1987,2059,2129,2212,2327",
+                        "endColumns": "78,123,71,69,82,114,76",
+                        "endOffsets": "1858,1982,2054,2124,2207,2322,2399"
+                    }
+                },
+                {
                     "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22",
@@ -13,11 +30,28 @@
                         "endOffsets": "286,428,523,595,671,727,802,877,970,1045,1120,1204,1303,1371,1436,1568,1756"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,185,327,422,494,570,626,701,776,869,944,1019,1103,1202,1270,1335,1467",
+                        "startOffsets": "105,235,377,472,544,620,676,751,826,919,994,1069,1153,1252,1320,1385,1719",
                         "endColumns": "129,141,94,71,75,55,74,74,92,74,74,83,98,67,64,131,64",
-                        "endOffsets": "180,322,417,489,565,621,696,771,864,939,1014,1098,1197,1265,1330,1462,1527"
+                        "endOffsets": "230,372,467,539,615,671,746,821,914,989,1064,1148,1247,1315,1380,1512,1779"
+                    }
+                },
+                {
+                    "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6157ec455bf9cb91866c576d656fb315/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1517",
+                        "endColumns": "201",
+                        "endOffsets": "1714"
                     }
                 }
             ]

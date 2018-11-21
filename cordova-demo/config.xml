@@ -37,4 +37,5 @@
         <variable name="FACEBOOK_DISPLAY_NAME" value="wecloudinfo" />
         <variable name="FACEBOOK_APP_ID" value="265112557538246" />
     </plugin>
+    <plugin name="cordova-plugin-facebookads" spec="^4.23.2" />
 </widget>

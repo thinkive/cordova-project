@@ -49,4 +49,7 @@
     <access origin="https://api.facebook.com" />
     <access origin="https://*.fbcdn.net" />
     <access origin="https://*.akamaihd.net" />
+    <feature name="FacebookAds">
+        <param name="android-package" value="com.rjfun.cordova.facebookads.FacebookAdPlugin" />
+    </feature>
 </widget>

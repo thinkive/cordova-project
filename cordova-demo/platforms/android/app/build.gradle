@@ -92,6 +92,9 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../com.qdc.plugins.baidu.location/cordovaDemo-baidu_location.gradle"
+apply from: "../cordova-plugin-extension/cordovaDemo-rjfun-libs.gradle"
+apply from: "../cordova-facebook-audnet-sdk/cordovaDemo-fb-adsdk.gradle"
+apply from: "../cordova-plugin-facebookads/cordovaDemo-android-support.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -261,6 +264,9 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     compile "com.facebook.android:facebook-android-sdk:4.3.+"
+    compile "com.facebook.android:audience-network-sdk:4.+"
+    compile "com.google.android.gms:play-services-ads:+"
+    compile "com.android.support:support-v4:+"
     // SUB-PROJECT DEPENDENCIES END
     implementation files('libs/BaiduLBS_Android.jar')
 }

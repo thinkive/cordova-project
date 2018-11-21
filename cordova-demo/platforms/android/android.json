@@ -35,6 +35,10 @@
             {
               "xml": "<feature name=\"BaiduLocation\"><param name=\"android-package\" value=\"com.qdc.plugins.baidu.BaiduLocation\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"FacebookAds\"><param name=\"android-package\" value=\"com.rjfun.cordova.facebookads.FacebookAdPlugin\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -44,7 +48,7 @@
           "/*": [
             {
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-              "count": 2
+              "count": 3
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
@@ -72,7 +76,7 @@
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
-              "count": 1
+              "count": 2
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\" />",
@@ -92,6 +96,10 @@
             },
             {
               "xml": "<meta-data android:name=\"com.baidu.lbsapi.API_KEY\" android:value=\"hkxZdsR6lhCPfdXjdxvxWo0nAMVMXoT5\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:configChanges=\"keyboardHidden|orientation|screenSize\" android:name=\"com.facebook.ads.InterstitialAdActivity\" />",
               "count": 1
             }
           ],
@@ -183,6 +191,15 @@
       "FACEBOOK_APP_ID": "265112557538246",
       "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
       "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "cordova-facebook-audnet-sdk": {
+      "PACKAGE_NAME": "com.example.cordovaDemo"
+    },
+    "cordova-plugin-facebookads": {
+      "PACKAGE_NAME": "com.example.cordovaDemo"
     }
   },
   "dependent_plugins": {},
@@ -259,6 +276,14 @@
       "clobbers": [
         "CordovaFacebook"
       ]
+    },
+    {
+      "id": "cordova-plugin-facebookads.FacebookAds",
+      "file": "plugins/cordova-plugin-facebookads/www/FacebookAds.js",
+      "pluginId": "cordova-plugin-facebookads",
+      "clobbers": [
+        "window.FacebookAds"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -270,6 +295,9 @@
     "cordova-plugin-vibration": "3.1.0",
     "cordova-plugin-dialogs": "2.0.1",
     "com.qdc.plugins.baidu.location": "2.0.0",
-    "cordova-plugin-facebook": "0.2.2"
+    "cordova-plugin-facebook": "0.2.2",
+    "cordova-plugin-extension": "1.5.4",
+    "cordova-facebook-audnet-sdk": "4.26.2",
+    "cordova-plugin-facebookads": "4.23.2"
   }
 }

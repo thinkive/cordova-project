@@ -800,6 +800,54 @@ var app = {
             }
          });
      },
+     facebookAd: function() {
+        alert('facebook广告')
+        alert(FacebookAds)
+        var ad_units = {
+            ios : {
+                banner:"265112557538246_265119440870891",
+                interstitial:"265112557538246_265117577537744",
+                nativeAd:"265112557538246_265119077537594"
+            },
+            android : {
+                banner:"your_ad_place_id",
+                interstitial:"your_ad_place_id",
+                nativeAd:"your_ad_place_id"
+            }
+        };
+
+        // select the right Ad Id according to platform
+        var adid = (/(android)/i.test(navigator.userAgent)) ? ad_units.android : ad_units.ios;
+
+        // set your hashed device id if testing on device (optional)
+        if(FacebookAds) FacebookAds.setOptions({
+        	isTesting: true,
+        	deviceHash: 'copy_your_hash_id_from_console_here'
+        });
+
+//        // for banner
+//        createBanner(adId/options, success, fail);
+//        removeBanner();
+//        showBanner(position);
+//        showBannerAtXY(x, y);
+//        hideBanner();
+//
+//        // for interstitial
+//        prepareInterstitial(adId/options, success, fail);
+//        showInterstitial();
+//
+//        // for native ad
+//        createNativeAd(adId, success, fail);
+//        removeNativeAd(adId);
+//        setNativeAdClickArea(adId,x,y,w,h);
+
+        if(FacebookAds) FacebookAds.prepareInterstitial( {adId:adid.interstitial, autoShow:false} );
+
+        // show the interstitial later, e.g. at end of game level
+        if(FacebookAds) FacebookAds.showInterstitial();
+
+
+     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         // 网络离线
@@ -843,7 +891,10 @@ var app = {
         document.getElementById('facebookLogin').addEventListener('click', function() {
             app.facebookLogin()
         });
-
+        // facebook广告
+        document.getElementById('facebookAd').addEventListener('click', function() {
+            app.facebookAd()
+        });
     }
 };
 app.initialize();

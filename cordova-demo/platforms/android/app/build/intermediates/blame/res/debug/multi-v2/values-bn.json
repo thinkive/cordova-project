@@ -13,11 +13,45 @@
                         "endOffsets": "288,420,516,592,666,728,804,880,979,1057,1135,1232,1346,1410,1478,1621,1811"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,187,319,415,491,565,627,703,779,878,956,1034,1131,1245,1309,1377,1520",
+                        "startOffsets": "105,237,369,465,541,615,677,753,829,928,1006,1084,1181,1295,1359,1427,1781",
                         "endColumns": "131,131,95,75,73,61,75,75,98,77,77,96,113,63,67,142,66",
-                        "endOffsets": "182,314,410,486,560,622,698,774,873,951,1029,1126,1240,1304,1372,1515,1582"
+                        "endOffsets": "232,364,460,536,610,672,748,824,923,1001,1079,1176,1290,1354,1422,1565,1843"
+                    }
+                },
+                {
+                    "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.1.1.aar/45f54ee6a04692d21aec8b6ecfafabc8/res/values-bn/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,266,381,449,524,610,726",
+                        "endColumns": "68,114,67,74,85,115,77",
+                        "endOffsets": "265,380,448,523,609,725,803"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1848,1921,2040,2112,2191,2281,2401",
+                        "endColumns": "72,118,71,78,89,119,81",
+                        "endOffsets": "1916,2035,2107,2186,2276,2396,2478"
+                    }
+                },
+                {
+                    "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6157ec455bf9cb91866c576d656fb315/res/values-bn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "210",
+                        "endOffsets": "457"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1570",
+                        "endColumns": "210",
+                        "endOffsets": "1776"
                     }
                 }
             ]

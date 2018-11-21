@@ -104,12 +104,12 @@
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png"
     },
     {
-        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_messenger_button_send_blue_large.xml.flat",
-        "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/layout/messenger_button_send_blue_large.xml"
-    },
-    {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_com_facebook_button_send_icon.png.flat",
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-xhdpi/com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_messenger_button_send_blue_large.xml.flat",
+        "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/layout/messenger_button_send_blue_large.xml"
     },
     {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
@@ -220,12 +220,12 @@
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-xxhdpi/com_facebook_button_send_icon.png"
     },
     {
-        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
-        "source": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
-    },
-    {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_com_facebook_tooltip_black_xout.png.flat",
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-xhdpi/com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
     },
     {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_com_facebook_tooltip_black_bottomnub.png.flat",
@@ -364,12 +364,12 @@
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-mdpi/com_facebook_button_icon.png"
     },
     {
-        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_com_facebook_button_like_icon_selected.png.flat",
-        "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-mdpi/com_facebook_button_like_icon_selected.png"
-    },
-    {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_com_facebook_button_send_icon.png.flat",
         "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-mdpi/com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_com_facebook_button_like_icon_selected.png.flat",
+        "source": "/Users/wecloud/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.3.0.aar/f044e347465ac90de84f40efd8032fdb/res/drawable-mdpi/com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
