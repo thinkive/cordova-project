@@ -3025,8 +3025,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="23" />
+    <option name="x" value="74" />
+    <option name="y" value="140" />
     <option name="width" value="1680" />
     <option name="height" value="967" />
   </component>
@@ -3253,7 +3253,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1680" height="967" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
