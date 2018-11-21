@@ -105,7 +105,7 @@
               "count": 1
             },
             {
-              "xml": "<provider android:authorities=\"com.facebook.app.FacebookContentProvider2399869080027605\" android:exported=\"true\" android:name=\"com.facebook.FacebookContentProvider\" />",
+              "xml": "<provider android:authorities=\"com.facebook.app.FacebookContentProvider265112557538246\" android:exported=\"true\" android:name=\"com.facebook.FacebookContentProvider\" />",
               "count": 1
             }
           ]
@@ -145,7 +145,7 @@
         "parents": {
           "/*": [
             {
-              "xml": "<string name=\"facebook_app_id\">2399869080027605</string>",
+              "xml": "<string name=\"facebook_app_id\">265112557538246</string>",
               "count": 1
             }
           ]
@@ -180,7 +180,7 @@
       "PACKAGE_NAME": "com.example.cordovaDemo"
     },
     "cordova-plugin-facebook": {
-      "FACEBOOK_APP_ID": "2399869080027605",
+      "FACEBOOK_APP_ID": "265112557538246",
       "FACEBOOK_DISPLAY_NAME": "wecloudinfo",
       "PACKAGE_NAME": "com.example.cordovaDemo"
     }

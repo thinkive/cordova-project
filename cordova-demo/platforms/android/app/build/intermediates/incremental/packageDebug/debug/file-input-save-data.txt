@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 21 20:41:22 CST 2018
+#Wed Nov 21 23:11:43 CST 2018
 17.baseType=DIRECTORY
 4.path=www/cordova-js-src/exec.js
 25.base=/Users/wecloud/android-workspace/cordova-project/cordova-demo/platforms/android/app/build/intermediates/transforms/dexMerger/debug/32

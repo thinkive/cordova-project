@@ -841,7 +841,6 @@ var app = {
 
         // facebook登录facebookLogin
         document.getElementById('facebookLogin').addEventListener('click', function() {
-            alert(1)
             app.facebookLogin()
         });
 
